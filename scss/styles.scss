@@ -29,14 +29,18 @@
                 font-size: 1.1rem;
                 color: #d4ffff;
                 padding-left: 1.7rem;
+
+                &:hover{
+                    color: white;
+                }
             }
 
             .active{
                 font-size: 1rem;
                 background-color: white;
                 border-radius: 2rem;
-                padding: .8rem 1.4rem;
-                margin-left: 1.5rem;
+                padding: .6rem 1.4rem;
+                margin-left: 1.7rem;
                 font-family: $serif-font;
                 text-transform: uppercase;
                 color: #2a3038;
@@ -74,24 +78,65 @@
 
                 /// MAIN SECTION ///
 
+/// FIRST SECTION ///
+
 .first-section{
     display: flex;
+    flex-wrap: wrap;
     position: relative;
 
     .text-section{
-        padding: 0 5rem;
+        flex-basis: 50%;
+        padding: 0 7rem;
         align-self: center;
 
         h2{
             color: $color-head;
-            font-size: 2.7rem;
-            margin-bottom: 1.5rem;
+            font-size: 2.6rem;
+            margin-bottom: 1.7rem;
         }
 
         p{
-            color: #8a8797;
-            font-size: 1rem;
-            margin-bottom: 1.5rem;
+            color: $color-body;
+            font-size: 1.040rem;
+            font-weight: 600;
+            margin-bottom: 1.7rem;
+            line-height: 1.65;
+        }
+
+        a{
+            color: $color-head;
+            font-family: $serif-font;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding-left: .4rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .learn{
+            cursor: pointer;
+            z-index: 0;
+            background-color: #fef1c0;
+            position: relative;
+            top: -9px;
+            border-radius: 10px;
+            height: 7px;
+            width: 125px;
+            padding: .3rem;
+
+            &:hover{
+                background-color: #facb1f;
+            }
+        }
+    }
+
+    .img-section{
+        flex-basis: 50%;
+
+        img{
+            max-width: 100%;
+            height: auto;
         }
     }
 }
