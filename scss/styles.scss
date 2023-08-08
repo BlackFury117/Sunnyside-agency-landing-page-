@@ -50,10 +50,7 @@
     }
 
     .container{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        @include position;
         width: 100%;
         display: flex;
         gap: 70px 0;
@@ -76,3 +73,25 @@
 }
 
                 /// MAIN SECTION ///
+
+.first-section{
+    display: flex;
+    position: relative;
+
+    .text-section{
+        padding: 0 5rem;
+        align-self: center;
+
+        h2{
+            color: $color-head;
+            font-size: 2.7rem;
+            margin-bottom: 1.5rem;
+        }
+
+        p{
+            color: #8a8797;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
