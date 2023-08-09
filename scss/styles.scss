@@ -278,4 +278,20 @@ main{
             }
         }
     }
+
+    /// FIFTH SECTION ///
+    
+    .fifth-section{
+        display: flex;
+        flex-wrap: wrap;
+
+        .fifth-img{
+            flex-basis: 25%;
+
+            .img-fifth{
+                max-width: 100%;
+                height: 100%;
+            }
+        }
+    }
 }
