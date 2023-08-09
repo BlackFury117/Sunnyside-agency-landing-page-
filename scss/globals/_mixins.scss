@@ -6,3 +6,43 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@mixin head{
+    color: $color-head;
+    font-size: 2.6rem;
+    margin-bottom: 1.7rem;
+}
+
+@mixin body{
+    color: $color-body;
+    font-size: 1.040rem;
+    font-weight: 600;
+    margin-bottom: 1.7rem;
+    line-height: 1.65;
+}
+
+@mixin link{
+    color: $color-head;
+    font-family: $serif-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: .4rem;
+    position: relative;
+    z-index: 1;
+}
+
+@mixin learn{
+    cursor: pointer;
+    z-index: 0;
+    background-color: #f6e39d;
+    position: relative;
+    top: -9px;
+    border-radius: 10px;
+    height: 7px;
+    width: 125px;
+    padding: .3rem;
+
+    &:hover{
+        background-color: #facb1f;
+    }
+}
