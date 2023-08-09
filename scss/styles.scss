@@ -165,4 +165,66 @@ main{
     }
 
     /// THIRD SECTION ///
+    
+    .third-section{
+        display: flex;
+        position: relative;
+        min-height: 80vh;
+
+        .third-one{
+            flex-basis: 50%;
+            background-image: url(/images/desktop/image-graphic-design.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            position: relative;
+
+            .text{
+                @include position;
+                top: 80%;
+                width: 100%;
+                padding: 0 9rem;
+
+                h3{
+                    color: #1e574a;
+                    font-size: 2rem;
+                    margin-bottom: 1.5rem;
+                }
+
+                p{
+                    @include body;
+                    color: #1e574a;
+                }
+            }
+        }
+
+        .third-two{
+            flex-basis: 50%;
+            background-image: url(/images/desktop/image-photography.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            position: relative;
+
+            .text{
+                @include position;
+                top: 80%;
+                width: 100%;
+                padding: 0 9rem;
+
+                h3{
+                    color: #1a4f6d;
+                    font-size: 2rem;
+                    margin-bottom: 1.5rem;
+                }
+
+                p{
+                    @include body;
+                    color: #1a4f6d;
+                }
+            }
+        }
+    }
 }
