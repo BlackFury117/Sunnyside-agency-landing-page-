@@ -234,15 +234,48 @@ main{
         padding: 7rem 7rem;
 
         h4{
+            color: #a8a9ab;
             font-size: 1.2rem;
             text-transform: uppercase;
             text-align: center;
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
+            letter-spacing: 5px;
         }
 
         .fourth-container{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0 30px;
+            text-align: center;
+            padding: 0 1rem;
             // flex-wrap: wrap;
+
+            .testimonials{
+                .rounded-pic{
+                    width: 90px;
+                    border-radius: 50%;
+                    margin-bottom: 2.5rem;
+                }
+
+                .mission{
+                    color: #6a6b6c;
+                    margin-bottom: 2.5rem;
+                    line-height: 1.65;
+                }
+
+                .name{
+                    color: #262d34;
+                    font-size: 1.1rem;
+                    font-family: $serif-font;
+                    font-weight: 700;
+                    margin-bottom: .5rem;
+                }
+
+                .post{
+                    color: #b5b4b2;
+                }
+            }
         }
     }
 }
