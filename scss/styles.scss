@@ -340,6 +340,7 @@ main{
 
             &:hover{
                 cursor: pointer;
+                transition: .20s linear;
                 color: white;
             }
         }
