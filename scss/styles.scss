@@ -8,8 +8,7 @@
 .header-section{
     min-height: 100vh;
     background-image: url(/images/desktop/image-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include background-setup;
     position: relative;
 
     .navbar-container{
@@ -174,8 +173,7 @@ main{
         .third-one{
             flex-basis: 50%;
             background-image: url(/images/desktop/image-graphic-design.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            @include background-setup;
             background-position: center;
             text-align: center;
             position: relative;
@@ -202,8 +200,7 @@ main{
         .third-two{
             flex-basis: 50%;
             background-image: url(/images/desktop/image-photography.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            @include background-setup;
             background-position: center;
             text-align: center;
             position: relative;
