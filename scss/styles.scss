@@ -75,6 +75,19 @@
     }
 }
 
+@include mobile-view{
+    .header-section{
+        background-image: url(/images/mobile/image-header.jpg);
+        @include background-setup;
+
+        .container{
+            h1{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
                 /// MAIN SECTION ///
 
 main{
