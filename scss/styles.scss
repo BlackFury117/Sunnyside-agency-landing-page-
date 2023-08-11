@@ -80,9 +80,23 @@
         background-image: url(/images/mobile/image-header.jpg);
         @include background-setup;
 
+        .navbar-container{
+            padding: 2rem 1rem;
+
+            .logo{
+                .logo-img{
+                    width: 140px;
+                }
+            }
+
+            .nav-links{
+                display: none;
+            }
+        }
+
         .container{
             h1{
-                font-size: 2rem;
+                font-size: 2.25rem;
             }
         }
     }
@@ -132,6 +146,25 @@ main{
             img{
                 max-width: 100%;
                 height: 100%;
+            }
+        }
+    }
+
+    @include mobile-view{
+        .first-section{
+            flex-direction: column-reverse;
+
+            .text-section{
+                padding: 2rem 2rem;
+                text-align: center;
+
+                h2{
+                    font-size: 2.2rem;
+                }
+
+                .learn{
+                    margin: 0 auto;
+                }
             }
         }
     }
