@@ -458,6 +458,18 @@ main{
             }
         }
     }
+
+    @include mobile-view{
+        .fifth-section{
+            .fifth-img{
+                flex-basis: 50%;
+
+                .img-fifth{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
                 /// FOOTER SECTION ///
