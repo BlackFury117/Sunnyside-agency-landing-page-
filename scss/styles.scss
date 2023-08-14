@@ -415,6 +415,34 @@ main{
         }
     }
 
+    @include mobile-view{
+        .fourth-section{
+            padding: 4rem 2rem 2rem 2rem;
+            margin-bottom: 0;
+
+            h4{
+                letter-spacing: 2px;
+            }
+
+            .fourth-container{
+                flex-wrap: wrap;
+                padding: 0;
+
+                .testimonials{
+                    margin-bottom: 3.5rem;
+
+                    .rounded-pic{
+                        margin-bottom: 1rem;
+                    }
+
+                    .mission{
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
     /// FIFTH SECTION ///
     
     .fifth-section{
