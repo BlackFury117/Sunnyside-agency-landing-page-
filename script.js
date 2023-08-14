@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
     hamburgerCheckbox.addEventListener("change", function() {
       if (this.checked) {
         navLinks.style.display = "block";
-        document.body.style.overflow = "hidden"; // Prevent scrolling when menu is open
+        document.body.style.overflow = "hidden";
+        navLinks.classList.add("show");
       } else {
         navLinks.style.display = "none";
-        document.body.style.overflow = "auto"; // Restore scrolling when menu is closed
+        document.body.style.overflow = "auto";
+        navLinks.classList.remove("show");
       }
     });
 });
-  
-  
