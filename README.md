@@ -2,7 +2,7 @@
 
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/screenshot-of-my-work.jpg) <br>
 
-This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](). Frontend Mentor challenges help us to improve our coding skills by building realistic projects. <br><br>
+This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-solution-rpA6XabFmB). Frontend Mentor challenges help us to improve our coding skills by building realistic projects. <br><br>
 
 ## Built with
 
